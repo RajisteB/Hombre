@@ -1,0 +1,24 @@
+@import '../../Shared.scss';
+
+// =====================
+// Email Signup Form
+// ---------------------
+.signup-form-container {
+  width: 100%;
+  display: flex;
+  padding: 6px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  input {
+    width: 30%;
+    padding: 15px;
+    font-size: 80%;
+    border-top: 1px solid $primary-blue-scale-3;
+    border-left: 1px solid $primary-blue-scale-3;
+    border-right: transparent;
+    border-bottom: 1px solid $primary-blue-scale-3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+}

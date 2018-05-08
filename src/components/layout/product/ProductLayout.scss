@@ -1,0 +1,144 @@
+@import '../../Shared.scss';
+
+// ==========================
+// Product Layout 
+// --------------------------
+
+.product-container {
+  width: 100%;
+  margin-top: 120px;
+  text-align: left;
+  @include flex-mix(row, space-around, center);
+}
+.product-images,
+.product-content {
+  width: 45%;
+  padding: 5px;
+  @include flex-mix(column, flex-start, center);
+  h1 {
+    margin: 10px;
+    font-size: 50px;
+  }
+  h3 {
+    color: $secondary-yellow;
+    margin: 15px;
+    font-size: 30px;
+    font-weight: $font-weight-thin;
+  }
+  h6 {
+    margin: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
+}
+.product-images {
+  @include flex-mix(column, space-around, center);
+  border: 0.5px solid orange;
+  padding: 10px;
+  height: 72vh;
+  .main-product-image {
+    width: 100%;
+    height: 65%;
+  }
+  .misc-product-image-list {
+    width: 100%;
+    height: 30%;
+    @include flex-mix(row, flex-start, center);
+    .misc-product-image {
+      width: 15%;
+      height: 40%;
+      margin: 0px 10px;
+      cursor: pointer;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+  }
+}
+.product-list-container {
+  width: 100%;
+  padding: 30px;
+  margin-top: 55px;
+  @include flex-mix(row, space-between, center);
+}
+.pricing {
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+  letter-spacing: 1px;
+  @include flex-mix(row, space-around, center);
+  p {
+    font-size: 30px;
+    font-weight: $font-weight-bold;
+  }
+}
+.selection {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  width: 90px;
+  overflow: hidden;
+  position: relative;
+  select {
+    width: 90px;
+    height: 30px;
+    border: none;
+    padding: 5px 0px 5px 5px;
+    font-size: 20px;
+    background: transparent;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.selection-selected {
+    background-color: dodgerblue;
+}
+.quantity {
+  width: 18%;
+  @include flex-mix(row, space-between, center);
+  i {
+    color: #ccc;
+    cursor: pointer;
+  }
+  span {
+    color: $secondary-yellow;
+    font-size: 30px;
+  }
+}
+.product_add_btns {
+  width: 80%;
+  padding: 10px;
+  margin-top: 30px;
+  @include flex-mix(row, space-around, center);
+  button {
+    width: 210px;
+    border: 0.5px solid $secondary-yellow;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 1px;
+    transition: background-color 0.4s ease-in-out;
+    background-color: transparent;
+    @include flex-mix(row, center, center);
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    i {
+      padding: 10px;
+    }
+    &:hover {
+      background-color: $secondary-yellow
+    }
+  }
+  .product-back-btn {
+    color: white;
+    width: 150px;
+    padding: 0px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.80);
+  }
+}

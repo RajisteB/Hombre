@@ -1,0 +1,86 @@
+@import 'App.scss';
+@import 'Reset.scss';
+@import './components/Shared.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar .links, .navbar .search {
+    display: none;
+  }
+  .navbar .logo-block {
+    min-width: 40vw;
+    border-right: none;
+  }
+  .navbar .burger {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .product-container {
+    width: 100%;
+    padding-top: 4vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product-content {
+    min-width: 100%;
+  }
+  .product-images {
+    min-width: 100%;
+    .misc-product-image {
+      width: 40%;
+    }
+  }
+  .product_add_btns button {
+    margin-top: 10px;
+  }
+  .product-list-item-card {
+    min-width: 35vw;
+    min-height: 40vh;
+  }
+  .hero-content {
+    min-width: 100vw;
+  }
+  .h-layout-sec-3 {
+    flex-direction: column;
+    .long-hero-card {
+      min-width: 90vw;
+    }
+  }
+  .square-card,
+  .wide-card-container,
+  .standard-card {
+    min-width: 90vw;
+    margin-top: 15px;
+  }
+  .standard-card-overlay,
+  .square-card-overlay,
+  .wide-card-overlay {
+    min-width: 100%;
+  }
+  .footer-nav, .footer-left-nav {
+    min-width: 100%;
+    flex-direction: column;
+    .footer-logo {
+      padding-left: 30px;
+      margin: 20px;
+    }
+  }
+  .footer-content {
+    min-width: 90vw;
+  }
+  .signup-form-container {
+    min-height: 20%;
+    .subscribe-btn {
+      min-width: 30vw;
+    }
+    input {
+      min-width: 50vw;
+    }
+  }
+
+}

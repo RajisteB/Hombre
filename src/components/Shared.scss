@@ -1,0 +1,86 @@
+// ====================
+// Component CSS Imports
+// --------------------
+
+// ====================
+// Standard Colors
+// --------------------
+
+$primary-blue: rgb(6, 39, 86);
+$primary-gray: rgb(6, 39, 86);
+$primary-black: rgba(0, 0, 0, 0.1);
+$primary-green: rgb(0, 166, 31);
+$primary-yellow: rgb(242, 202, 33);
+$primary-purple: rgb(89, 103, 214);
+$primary-blue-scale-1: rgb(55, 82, 119);
+$primary-blue-scale-2: rgb(105, 125, 153);
+$primary-blue-scale-3: rgb(150, 164, 183);
+$primary-purple-scale-1: rgb(71, 82, 171);
+$primary-purple-scale-2: rgb(35, 41, 85);
+
+$secondary-yellow: #f09e00;
+$secondary-gray-scale-1: #757474;
+$secondary-gray-scale-2: #acacac;
+$secondary-gray-scale-3: #cccccc;
+$secondary-blue-scale-1: #1c8ded;
+$secondary-blue-scale-2: #00c0e3;
+
+$support-red-scale-1: #a20000;
+$support-red-scale-2: #e45d5d;
+$support-red-scale-3: #fcd4e3;
+
+// ====================
+// Font Size & Weight
+// --------------------
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900');
+
+// === Desktop - Max 1920px ===
+$desktop-normal-text: 28px;
+$desktop-bold-level-1: 30px;
+$desktop-bold-level-2: 20px;
+$desktop-bold-level-3: 12px;
+
+// === Mobile - Max 640px ===
+$mobile-640-bold-menu: 18px;
+$mobile-640-normal-text: 15px;
+$mobile-640-bold-level-1: 25px;
+$mobile-640-bold-level-2: 20px;
+
+// === Mobile - Max 320px ===
+$mobile-320-bold-menu: 10px;
+$mobile-320-normal-text: 8px;
+$mobile-320-bold-level-1: 15px;
+$mobile-320-bold-level-2: 12px;
+
+// === Weights ===
+$font-weight-thin: 300;
+$font-weight-bold: 900;
+$font-weight-xthin: 100;
+$font-weight-normal: 400;
+$font-weight-normal-x2: 700;
+
+// ====================
+// Background Img Props
+// --------------------
+
+@mixin bg-img-contain($url) {
+  background-image: url($url);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@mixin bg-img-cover($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// ====================
+// Flexbox Layout
+// --------------------
+@mixin flex-mix($direction, $content, $items) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: $items;
+  flex-direction: $direction;
+  justify-content: $content;
+}

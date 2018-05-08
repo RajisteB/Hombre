@@ -1,0 +1,142 @@
+@import '../../Shared.scss';
+
+.btn {
+  cursor: pointer;
+}
+// ====================
+// Add to Cart Button
+// --------------------
+.add-to-cart-btn {
+  i {
+    padding-right: 10px;
+  }
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: $font-weight-thin;
+  border-radius: 2px;
+  background-color: $primary-purple;
+  &:hover {
+    background-color: $primary-purple-scale-2;
+  }
+}
+// ====================
+// Shop Now Button
+// --------------------
+.shop-now-btn {
+  color: white;
+  border: 1px solid white;
+  padding: 10px 40px;
+  font-size: 20px;
+  background: transparent;
+  font-weight: $font-weight-thin;
+  border-radius: 1px;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    color: $primary-purple-scale-1;
+    border: 1px solid $primary-purple-scale-1;
+    background: none;
+  }
+}
+// ====================
+// Slider Navigation Buttons
+// --------------------
+.slider-nav-btns {
+  margin-top: 10px;
+  i {
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+}
+
+// ====================
+// Explore Card Button
+// --------------------
+.explore-more-btn {
+  color: white;
+  border: 1.2px solid white;
+  padding: 8px 20px 8px 20px;
+  font-size: 15px;
+  transition: background-color 0.4s ease-in-out;
+  font-weight: $font-weight-thin;
+  border-radius: 2px;
+  background-color: transparent;
+  &:hover {
+    background-color: $secondary-blue-scale-1;
+    border: 1.2px solid $secondary-blue-scale-1;
+  }
+}
+// ====================
+// Purchase Now Button
+// --------------------
+.purchase-btn {
+  color: $secondary-yellow;
+  padding: 8px;
+  border: 1.2px solid $secondary-yellow;
+  font-size: 100%;
+  font-weight: $font-weight-thin;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in-out;
+  &:hover {
+    background-color: $secondary-yellow;
+    color: white;
+  }
+}
+// ====================
+// Get The Look Button
+// --------------------
+.get-the-look-btn {
+  color: white;
+  margin: 10px;
+  border: 1.2px solid white;
+  padding: 10px;
+  font-size: 120%;
+  border-radius: 2px;
+  transition: background-color 0.6s ease-in-out;
+  font-weight: $font-weight-xthin;
+  letter-spacing: 0.7px;
+  background-color: transparent;
+  &:hover {
+    border: 1.2px solid $secondary-blue-scale-1;
+    background-color: $secondary-blue-scale-1;
+  }
+}
+// ====================
+// Details Button
+// --------------------
+.details-btn {
+  color: $secondary-yellow;
+  border: 1.3px solid $secondary-yellow;
+  padding: 10px 30px;
+  font-size: 102%;
+  transition: background-color 0.4s ease-in-out;
+  font-weight: $font-weight-thin;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  background-color: transparent;
+  &:hover {
+    color: white;
+    background-color: $secondary-yellow;
+  }
+}
+// ====================
+// Subscribe Button
+// --------------------
+.subscribe-btn {
+  color: white;
+  width: 15%;
+  padding: 12.5px;
+  font-size: 105%;
+  border-top: 1px solid $primary-blue-scale-3;
+  border-left: transparent;
+  border-right: 1px solid $primary-blue-scale-3;
+  border-bottom: 1px solid $primary-blue-scale-3;
+  letter-spacing: 1px;
+  background-color: $secondary-blue-scale-1;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
