@@ -57,12 +57,14 @@ class ProductListItemCard extends Component {
         <div className="product-list-item-card">
           <div className="product-list-item-img" style={bgImage}></div>
           <div className="product-list-item-content">
-            <div className="product-list-item-overlay">
+            {/* <div className="product-list-item-overlay">
               <Link to={`/products/${id}`}>
                   <DetailsBtn />
               </Link>
-            </div>
-            <h3>{name}</h3>
+            </div> */}
+            <Link to={`/products/${id}`}>
+              <h3>{name}</h3>
+            </Link>
             <h6>{brand}</h6>
             <p>${sale}</p>
             <span>${msrp}</span>

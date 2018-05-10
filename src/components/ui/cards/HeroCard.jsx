@@ -54,7 +54,7 @@ class HeroCard extends Component {
               <Link to={`/${ends[currentIndex].sale_key}`} >
                 <ShopNowBtn />
               </Link>
-              <SliderNavBtns />
+              {/* <SliderNavBtns /> */}
             </div>
           </div>
         </div>

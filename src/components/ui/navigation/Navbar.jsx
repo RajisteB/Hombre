@@ -72,9 +72,9 @@ class Navbar extends Component {
         </div>
         {navIcon}
         {navOverlay}
-        <div className="search">
+        {/* <div className="search">
           <input type="text" placeholder="Search..." />
-        </div>
+        </div> */}
         <div className="links">
           <div className="icon">
             <i className="far fa-user fa-lg"></i>

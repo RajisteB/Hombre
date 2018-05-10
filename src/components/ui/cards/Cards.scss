@@ -16,7 +16,7 @@
   height: 100%;
   position: relative;
   border-radius: 2px;
-  background-color: rgba(71, 82, 171, 0.55);
+  background-color: rgba(71, 82, 171, 0.70);
 }
 .hero-content-container{
   width: 100%;
@@ -229,11 +229,11 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   border-radius: 3px;
   flex-direction: column;
-  &:hover {
-    .product-list-item-overlay {
-      top: 0%;
-    }
-  }
+  // &:hover {
+  //   .product-list-item-overlay {
+  //     top: 0%;
+  //   }
+  // }
 }
 .product-list-item-img {
   width: 100%;
@@ -249,14 +249,18 @@
   text-align: center;
   flex-direction: column;
   justify-content: space-around;
+  a {
+    text-decoration: none;
+  }
   h3 {
     color: $secondary-yellow;
-    font-size: 90%;
+    font-size: 85%;
     font-weight: $font-weight-normal;
   }
   h6 {
     color: $secondary-gray-scale-1;
-    font-size: 90%;
+    font-size: 80%;
+    font-weight: $font-weight-thin;
   }
   span {
     color: $secondary-gray-scale-2;
@@ -282,4 +286,10 @@
 }
 
 
-
+@media (max-width: 1250px) {
+  .square-card-overlay,
+  .standard-card-overlay,
+  .wide-card-overlay {
+    opacity: 1;
+  }
+}

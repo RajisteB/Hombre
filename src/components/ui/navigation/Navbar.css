@@ -3,7 +3,7 @@
 .navbar {
   top: 0;
   width: 100vw;
-  height: 9vh;
+  height: 7vh;
   z-index: 10;
   position: fixed;
   background: rgba(0, 0, 0, 0.9);
