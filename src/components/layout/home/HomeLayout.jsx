@@ -45,7 +45,7 @@ const HomeLayout = (props) => {
         <h2 className="list-title">{data.sc4[0].name}</h2>
         <div className="h-layout-sec-4 wd-96 m-auto">
           {productList_2.map((item, i) => {
-            return <div key={i}><ProductListItemCard data={item} /></div>
+          return <ProductListItemCard data={item} key={i}/>
           })}
         </div>
         <h6 className="view-more">

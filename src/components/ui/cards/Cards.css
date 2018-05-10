@@ -96,7 +96,7 @@
     opacity: 1; }
 
 .square-card-content {
-  width: 50%;
+  width: 80%;
   line-height: 20px;
   font-weight: 300;
   letter-spacing: 1px; }
@@ -182,7 +182,7 @@
     letter-spacing: 1px; }
 
 .product-list-item-card {
-  width: 15vw;
+  width: 20vw;
   height: 35vh;
   display: flex;
   margin: 20px 10px 10px 10px;
