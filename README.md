@@ -13,4 +13,4 @@ I wanted to explore building out an fashion retailer ecommerce site. At first it
 I started off with the individual components (ui, cards, etc) and then integrated the API reponse data by passing down props to each of the components when necessary for them to render. Overall it was a fun and interesting project to get to know more in depth about the React library.
 
 #### Issues
-There were a few React bugs that I had fixed however, I am still trying to resolve the issue of the scrollbar position when the user gets routed to a new page. 
+There were a few React bugs that I had fixed however, I am still trying to resolve the issue of the scrollbar position when the user gets routed to a new page. I will also have to reimplement the search functionality as well.
