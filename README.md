@@ -1,3 +1,10 @@
+#### API HAS BEEN DISCONTINUED...
+Unfortunately, Gilt Groupe, the fashion retailer 
+behind this API, has currenty decided to end their service 
+at this time until further notice. 
+Thus, the Live version of this website will not work however, 
+you can see screenshots and more info via the Github page.
+
 ## HOMBRE - Men's Fashion Ecommerce Store (Front End)
 
 [LIVE DEMO](http://5af4684bc965925d86b1a8b6.priceless-yonath-8661da.netlify.com/)
