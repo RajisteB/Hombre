@@ -3,7 +3,7 @@ Unfortunately, Gilt Groupe, the fashion retailer
 behind this API, has currenty decided to end their service 
 at this time until further notice. 
 Thus, the Live version of this website will not work however, 
-you can see screenshots and more info via the Github page.
+you can see screenshots and more info via this Github page.
 
 ## HOMBRE - Men's Fashion Ecommerce Store (Front End)
 
